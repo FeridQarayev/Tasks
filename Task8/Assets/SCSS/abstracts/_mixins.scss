@@ -1,0 +1,29 @@
+
+@mixin justify {
+    display: flex;
+    justify-content: center;
+}
+
+@mixin align {
+    display: flex;
+    align-items: center;
+}
+
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin btn($color:#2c3878) {
+    background-color: $color;
+    border: 1px solid #3C3C3C;
+    color: white;
+    padding: 14px 32px;
+}

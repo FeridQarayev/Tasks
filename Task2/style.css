@@ -1,0 +1,153 @@
+.card{
+    border: 1px solid lightgray;
+    width: 225px;
+    border-radius: 10px;
+    box-shadow: gray;
+}
+
+.card__image{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card__body{
+    padding: 10px;
+}
+
+.card__body__title{
+    font-size: 20px;
+    margin: 5px 0px;
+}
+
+.card__body__button{
+    border-radius: 5px;
+    border:0px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+
+/* MyBootstrap */
+/* Color */
+.color__red{
+    background-color: red;
+}
+
+.color__blue{
+    background-color: blue;
+}
+
+.color__orange{
+    background-color: orange;
+}
+
+.color__brown{
+    background-color: brown;
+}
+
+/* TextColor */
+.text__color__red{
+    color: brown;
+}
+.text__color__blue{
+    color: blue;
+}
+.text__color__orange{
+    color: orange;
+}
+
+.text__color__brown{
+    color: brown;
+}
+
+/* With */
+.sm{
+    width: 100px;
+}
+.md{
+    width: 200px;
+}
+.lg{
+    width: 300px;
+}
+
+/* Border */
+.border__radius__sm{
+    border-radius: 5px;
+}
+.border__radius__md{
+    border-radius: 10px;
+}
+.border__radius__lg{
+    border-radius: 15px;
+}
+
+/* Container */
+.container-sm{
+    size: 576px;
+}
+.container-md{
+    size: 992px;
+}
+.container-lg{
+    size: 1320px;
+}
+
+/* Pagination */
+.prev{
+    width: auto;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: blue;
+    border: 1px solid lightgray;
+    box-shadow: gray;
+    padding: 10px;
+    margin-right: 0px;
+}
+.next{
+    width: auto;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: blue;
+    border: 1px solid lightgray;
+    box-shadow: gray;
+    padding: 10px;
+}
+.list{
+    color: blue;
+    border: 1px solid lightgray;
+    box-shadow: gray;
+    padding: 10px;
+    margin-left:0px;
+}
+
+div p{
+    margin: 0px;
+    width: 300px;
+    border: 0.7px solid gray;
+}
+
+.total{
+    border-radius: 5px;
+}
+
+.class1{
+   background-color: white; 
+   color: black;
+}
+.class2{
+   background-color: lightblue; 
+   color: darkblue;
+}
+.class3{
+   background-color: darkgray; 
+   color: black;
+}
+.class4{
+   background-color: lightgreen; 
+   color: black;
+}
+
+.total div>:hover{
+    background-color: gainsboro;
+}

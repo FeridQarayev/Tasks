@@ -1,0 +1,148 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    // margin: 0px;
+    // padding: 0px;
+
+    // width: 100%;
+    // height: 100%;
+    // .card{
+    //     position: absolute;
+    //     width: 1903px;
+    //     height: 1000px;
+    //     z-index: -888;
+    // }
+    // .card__title{
+    //     width: 100%;
+    //     height: 1000px;
+    //     display: flex;
+    //     justify-content: center;
+    //     align-items: center;
+    //     font-size: 35px;
+    //     z-index: 999;color: white;
+    // }
+    
+    // .container{
+    //     display: flex;
+    //     justify-content: space-between;
+    //     width: 1903px;
+    //     height: 940px;
+    //     &__left{
+    //         display: flex;
+    //         flex-direction: column;
+    //         justify-content: center;
+    //         margin-left: 150px;
+    //         width: 600px;
+    //         &__icon{
+    //             img{
+    //                 width: 100px;
+    //             }
+    //         }
+    //         &__title{
+    //             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    //             font-size: 50px;
+    //             font-weight: 700px;
+    //             p{
+    //                 margin-top: 5px;
+    //                 margin-bottom: 5px;
+    //             }
+    //         }
+    //         &__stars{
+
+    //         }
+    //         &__price{
+    //             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    //             font-weight: 700px;
+    //         }
+    //         &__button{
+                
+    //             button{
+    //                 padding: 10px 20px;
+    //                 background-color: red;
+    //                 color: white;
+    //                 border-radius: 20px;
+    //                 border: none;
+    //             }
+    //         }
+    //     }
+    //     &__right{
+    //     position: relative;
+    //     width: 100%;
+    //     height: 100%;
+    //         &__fon{
+    //             position: absolute;
+    //             height: 100%;
+    //             width: 1700px;
+    //             right: 0;
+    //             clip-path: polygon(56% 0, 100% 0%, 100% 100%, 45% 100%);
+    //             z-index: -1;
+    //             box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    //         }
+    //         &__img{
+    //             position: absolute;
+    //             right: 0;
+    //             height: 700px;
+    //         }
+    //     }
+    // }
+
+    .head{
+        width: 150px;
+        height: 150px;
+        margin: 50px;
+        background-color: #a4d9eb;
+        border: 5px solid #9bbcc2;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        .light{
+            .bulb{
+                position: absolute;
+                transform:translateY(-45px);
+                width: 30px;
+                height: 30px;
+                background-color: #ffa500;
+                border-radius: 50%;
+                
+            }
+            .stick{
+                position: absolute;
+                transform:translateY(-20px);
+                width: 10px;
+                height: 15px;
+                background-color: #808080;
+                z-index: -1;
+                left: 125px;
+            }
+        }
+
+         .ears{
+             display: flex;
+             align-items: center;
+             position: relative;
+             .ear{
+                 background-color: #c90a0a;
+                 width: 10px;
+                 height: 50px;
+                 &:first-child{
+                    position: absolute;
+                     border-top-left-radius: 5px;
+                     border-bottom-left-radius: 5px;
+                     transform:translatX(50px);
+                     left: -80px;
+                 }
+                 &:last-child{
+                     border-top-right-radius: 5px;
+                     border-bottom-right-radius: 5px;
+                     left: -35px;
+                 }
+             }
+         }
+    }
+    
+}

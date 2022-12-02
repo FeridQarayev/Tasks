@@ -1,0 +1,313 @@
+.container{
+    width: 1200px;
+    .navbar{
+        height: 54px;
+        @include between;
+        .navbar__left{
+            svg{
+            }
+        }
+        .navbar__right{
+           @include between;
+           gap:50px;
+           .navbar__right__left{
+            display: flex;
+            gap: 80px;
+            font-family: $font;
+            font-weight: 400;
+           }
+           .navbar__right__right{
+
+            button{
+                @include btn;
+            }
+           }
+        }
+    }
+
+
+    .body__module{
+        position: relative;
+        height: 862px;
+        margin-top: 97px;
+        .body__module__up{
+            height: 349px;
+            display: flex;
+            justify-content: space-between;
+            .body__module__up__left{
+                height: 303px;
+                width: 681px;
+                font-family: $font;
+                font-weight: 700;
+                font-size: 72px;
+                line-height: 100.8px;
+            }
+            .body__module__up__right{
+                margin-left: auto;
+                hr{
+                    height: 1px;
+                    width: 683px;
+                    margin-top: 50px;
+                    background-color: black;
+                    display: block;
+                    border-top: 2px solid black;
+                }
+                &__text{
+                    margin-top: 170px;
+                    margin-left: auto;
+                    padding-top: 70px;
+                    width: 178px;
+                    height: 54px;
+                    font-family: $font;
+                    font-weight: 500;
+                    transform: rotate(270deg);
+                }
+            }
+        }
+        .body__module__middle{
+            position: absolute;
+            width: 252px;
+            height: 525px;
+            background-color: #2C3878;
+            color: white;
+            right: 142px;
+            bottom: 147px;
+            .body__module__middle__card{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 60px;
+                p{
+                    font-size: 52px;
+                }
+                span{
+                    font-size: 16px;
+                }
+            }
+    
+        }
+        .body__module__down{
+            margin-top: 46px;
+            height: 513px;
+        }
+    }
+
+    .body__text{
+        height: 166px;
+        margin-top: 160px;
+        .body__text__up{
+            display: flex;
+            gap: 20px;
+            p{
+                font-family: $font;
+                font-weight: 500;
+            }
+            hr{
+                height: 1px;
+                width: 529px;
+                margin-top: 10px;
+                background-color: black;
+                display: block;
+                border-top: 2px solid black;
+            }
+        }
+        .body__text__down{
+            height: 122px;
+            p{
+                color: #333333;
+                font-size: 36px;
+                // padding-right: 160px;
+                font-weight: 600;
+                line-height: 61.2px;
+                font-family: $font;
+            }
+        }
+    }
+
+    .body__card{
+        position: relative;
+        margin-top: 60px;
+        display: flex;
+        &__left{
+                width: 883px;
+                height: 525px;
+            img{
+                width: 883px;
+                height: 525px;
+            }
+        }
+        &__middle{
+            position: absolute;
+            width: 276px;
+            height: 90px;
+            background-color: white;
+            filter: drop-shadow(10px 10px 40px rgba(0, 0, 0, 0.05));
+            @include center;
+            gap:15px;
+            top: 27px;
+            right: 118px;
+            &__left{
+                img{
+                    width: 51px;
+                    height: 56px;
+                }
+            }
+            &__right{
+                font-family: $font;
+                p{
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 25.2px;
+                }
+                span{
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 28.8px;
+                    color: #9C9C9C;
+                }
+            }
+        }
+        &__right{
+            @include center;
+            width: 100%;
+            &__main{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 223px;
+                height: 234px;
+                p{
+                    size: 18px;
+                    font-family: $font;
+                    font-weight: 400;
+                    color: #9C9C9C;
+                }
+                button{
+                    @include btn;
+                    width: 142px;
+                    height: 49px;
+                    margin-top: 40px;
+                }
+            }
+        }
+    }
+
+    .service{
+        position: relative;
+        margin-top: 160px;
+        width: 883px;
+        height: 828.55px;
+        display: flex;
+        flex-direction: column;
+        &__card{
+            position: absolute;
+            z-index: 5;
+            height: 467px;
+            width: 883px;
+            &__up{
+                &__title{
+                    display: flex;
+                    gap: 20px;
+                    p{
+                    font-family: $font;
+                    font-weight: 500;
+                    }
+                    hr{
+                        height: 1px;
+                        width: 529px;
+                        margin-top: 10px;
+                        background-color: black;
+                        display: block;
+                        border-top: 2px solid black;
+                    }
+                }
+                &__body{
+                    span{
+                        font-family: $font;
+                        font-size: 36px;
+                        font-weight: 600;
+                        color: #333333;
+                    }
+                    p{
+                        width: 471px;
+                        font-size: 18px;
+                        font-weight: 400;
+                        font-family: $font;
+                        color: #9C9C9C;
+                    }
+                }
+            }
+            &__down{
+                margin-top: 40px;
+                &__card{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    font-family: $font;
+                    font-weight: 600;
+                    height: 85px;
+                    background-color: white;
+                    &__left{
+                        display: flex;
+                        gap: 30px;
+                        .service__card__down__card__middle{
+                            display: flex;
+                            justify-content: start;
+                        }
+                    }
+                    &__right{
+                        padding-right: 30px;
+                    }
+                }
+            }
+        }
+        &__img{
+            margin-top: 300px;
+            margin-left: 120px;
+            z-index: 1;
+            width: 1076px;
+            height: 524.55px;
+        }
+    }
+
+    .product{
+        margin-top: 160.45px;
+        height: 166px;
+        display: flex;
+        font-family: $font;
+        &__left{
+            width: 600px;
+            &__up{
+                display: flex;
+            gap: 20px;
+            p{
+                font-family: $font;
+                font-weight: 500;
+            }
+            hr{
+                height: 1px;
+                width: 529px;
+                margin-top: 10px;
+                background-color: black;
+                display: block;
+                border-top: 2px solid black;
+            }
+            }
+            &__down{
+                margin-top: 20px;
+                width: 337px;
+                height: 122px;
+                font-size: 36px;
+                font-weight: 600;
+            }
+        }
+        &__right{
+            width: 473px;
+            height: 87px;
+            margin-top: 46px;
+            margin-left: 100px;
+            color: #9C9C9C;
+            font-size: 18px;
+        }
+    }
+}

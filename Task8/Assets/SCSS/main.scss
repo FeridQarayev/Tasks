@@ -1,0 +1,7 @@
+@import './abstracts/variables','./abstracts/mixins';
+
+@import './vendors/reset';
+
+@import './layout/header','./layout/footer';
+
+@import './pages/home','./pages/about';
